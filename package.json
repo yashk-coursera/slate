@@ -1,5 +1,6 @@
 {
   "private": true,
+  "version": "0.37.7",
   "name": "slate-packages",
   "workspaces": [
     "packages/*"
