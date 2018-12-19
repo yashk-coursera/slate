@@ -1,7 +1,6 @@
 {
-  "private": true,
   "version": "0.37.7",
-  "name": "slate-packages",
+  "name": "@coursera/slate-packages",
   "workspaces": [
     "packages/*"
   ],
@@ -92,6 +91,9 @@
     "slate-plain-serializer": "*",
     "slate-react": "*",
     "slate-schema-violations": "*"
+  },
+  "publishConfig": {
+    "registry": "https://artifactory.dkandu.me/artifactory/api/npm/coursera-npm-packages"
   },
   "scripts": {
     "benchmark": "cross-env COMPARE=compare node --expose-gc ./tmp/benchmark/index.js",
